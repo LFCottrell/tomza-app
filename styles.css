@@ -1,0 +1,15 @@
+.hover-effect {
+    width: 200px;
+    height: 100px;
+    background-color: #ADD8E6;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.hover-effect:hover {
+    transform: scale(1.1); /* Slight enlargement */
+    background-color: #87CEEB; /* Change background color */
+}
